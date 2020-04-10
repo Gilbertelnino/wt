@@ -1,0 +1,14 @@
+{
+  "name": "healthcoach",
+  "version": "1.0.0",
+  "description": "weight loss and health motivation website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ui"
+  },
+  "author": "gilbert elnino",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
