@@ -319,14 +319,14 @@
               <div class="text-center">
                 <h3 class="mb-4">Free Consultation</h3>
               </div>
-              <form action="#" class="appointment-form" method="POST" data-netlify="true">
+              <form action="#" class="appointment-form" name="consultation -form"thod="POST" data-netlify="true">
                 <div class="row">
                   <div class="col-md-12 col-lg-6 col-xl-4">
                     <div class="form-group">
                       <input
                         type="text"
                         class="form-control"
-                        placeholder="Your Name" required
+                        placeholder="Your Name" required name="name"
                       />
                     </div>
                   </div>
@@ -335,7 +335,7 @@
                       <input
                         type="email"
                         class="form-control"
-                        placeholder="Your email" required
+                        placeholder="Your email" required name="email"
                       />
                     </div>
                   </div>
@@ -346,11 +346,11 @@
                           <div class="icon">
                             <span class="fa fa-chevron-down"></span>
                           </div>
-                          <select name="" class="form-control services-options" required>
+                          <select name="services[]" class="form-control services-options" required>
                             <option value="">Services</option>
-                            <option value="">Meal Plan</option>
-                            <option value="">Workout Strategies</option>
-                            <option value="">Inspiration</option>
+                            <option value="meal plan">Meal Plan</option>
+                            <option value="workout strategies">Workout Strategies</option>
+                            <option value="inspiration">Inspiration</option>
                           </select>
                         </div>
                       </div>
@@ -365,7 +365,7 @@
                         <input
                           type="text"
                           class="form-control appointment_date"
-                          placeholder="Date" required
+                          placeholder="Date" required name="Date"
                         />
                       </div>
                     </div>
@@ -379,7 +379,7 @@
                         <input
                           type="text"
                           class="form-control appointment_time"
-                          placeholder="Time" required
+                          placeholder="Time" required name="time"
                         />
                       </div>
                     </div>
@@ -849,12 +849,12 @@
                   </h2>
                 </div>
                 <div class="col-md-5 d-flex align-items-center">
-                  <form action="#" class="subscribe-form" method="POST" data-netlify="true">
+                  <form action="#" class="subscribe-form" name="subscribe-form" method="POST" data-netlify="true">
                     <div class="form-group d-flex">
                       <input
                         type="email"
                         class="form-control"
-                        placeholder="Enter email address" required
+                        placeholder="Enter email address" required name="email"
                       />
                       <input
                         type="submit"
