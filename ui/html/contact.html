@@ -3,7 +3,9 @@
   <head>
     <title>Contact - weight loss and health motivation</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Gilbert Elnino" />
+    <meta name="description" content="The weight loss and health motivation aims to provide complete beginners to healthy life with all they need to know to get started with good meal plan, workout strategy and weight loss inspiration and motivation" />
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
@@ -93,10 +95,7 @@
 									<div class="contact-wrap w-100 p-md-5 p-4">
 										<h3 class="mb-4">Get in touch</h3>
 										<div id="form-message-warning" class="mb-4"></div> 
-					      		<div id="form-message-success" class="mb-4">
-					            Your message was sent, thank you!
-					      		</div>
-										<form method="POST" id="contactForm" name="contactForm" class="contactForm" data-netlify="true">
+										<form method="POST" id="contactForm" name="contactForm" class="contactForm" data-netlify="true" action="subscribe-success.html">
 											<div class="row">
 												<div class="col-md-6">
 													<div class="form-group">
@@ -118,7 +117,7 @@
 												</div>
 												<div class="col-md-12">
 													<div class="form-group">
-														<label class="label" for="#">Message</label>
+														<label class="label" for="message">Message</label>
 														<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message" required></textarea>
 													</div>
 												</div>
@@ -185,12 +184,12 @@
 					</h2>
 				  </div>
 				  <div class="col-md-5 d-flex align-items-center">
-					<form class="subscribe-form" method="POST" data-netlify="true">
+					<form class="subscribe-form" method="POST" data-netlify="true" action="subscribe-success.html" name="subscribeForm">
 					  <div class="form-group d-flex">
 						<input
 						  type="email"
 						  class="form-control"
-						  placeholder="Enter email address" required
+						  placeholder="Enter email address" required name="email"
 						/>
 						<input
 						  type="submit"
