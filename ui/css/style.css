@@ -50,7 +50,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  scroll-behavior: auto
+  scroll-behavior: auto;
 }
 
 article,
@@ -81,41 +81,43 @@ section {
 .services-options > option {
   color: #040505;
 }
-@media (max-width:450px){
-  .welcome-message{
-    font-size: 1rem
+@media (max-width: 450px) {
+  .welcome-message {
+    font-size: 1rem;
   }
 }
-@media (max-width: 765px){
-  .privacy{
+@media (max-width: 765px) {
+  .privacy {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
 }
-.special{
+.special {
   font-size: 2rem;
   text-align: center;
   padding: 2rem;
   text-transform: capitalize;
 }
-.img-logo{
+.img-logo {
   width: 30%;
 }
-@media (max-width: 380px){
-  .special{
+@media (max-width: 380px) {
+  .special {
     font-size: 1.5rem;
   }
-  .img-logo{
+  .img-logo {
     width: 50%;
   }
 }
 
-@media (max-width: 990px){
-  .mobile-nav{
+@media (max-width: 990px) {
+  .mobile-nav {
     display: flex;
     justify-content: space-between;
   }
-  
+}
+.privacy-terms {
+  margin-top: 2rem;
 }
 /* *******MY STYLE ENDS ******* */
 
