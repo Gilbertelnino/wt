@@ -64,6 +64,7 @@ section {
 .contact-header {
   padding: 2rem 0;
 }
+
 .welcome-message {
   font-size: 2rem;
   font-weight: bold;
@@ -112,6 +113,20 @@ section {
 }
 .privacy-terms {
   margin-top: 2rem;
+}
+.desktop{
+  display: block
+}
+.mobile{
+  display:none
+}
+@media(max-width: 370px){
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
 }
 /* *******MY STYLE ENDS ******* */
 
