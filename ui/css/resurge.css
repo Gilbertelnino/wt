@@ -51,6 +51,9 @@ header {
   header {
     height: 100vh;
   }
+  .img-headline img {
+    width: inherit;
+  }
 }
 @media (max-width: 350px) {
   .headline h1 {
