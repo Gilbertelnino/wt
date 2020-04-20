@@ -1,5 +1,5 @@
 header {
-  height: 85vh;
+  height: 100vh;
 }
 .title {
   margin-bottom: 5rem;
@@ -48,9 +48,6 @@ header {
   }
 }
 @media (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
   .img-headline img {
     width: inherit;
   }
