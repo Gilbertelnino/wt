@@ -28,16 +28,6 @@
   }
 }
 
-.toast-header {
-  display: flex;
-  align-items: center;
-  padding: $toast-padding-y $toast-padding-x;
-  color: $toast-header-color;
-  background-color: $toast-header-background-color;
-  background-clip: padding-box;
-  border-bottom: $toast-border-width solid $toast-header-border-color;
-}
-
 .toast-body {
   padding: $toast-padding-x; // apply to both vertical and horizontal
 }
