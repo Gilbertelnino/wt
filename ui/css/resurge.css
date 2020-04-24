@@ -18,7 +18,12 @@ header {
 .headline h1 {
   color: #ffffff;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.headline p{
+  color: #ffffff;
+  font-weight: 400;
 }
 .headline .link {
   margin-top: 3rem;
