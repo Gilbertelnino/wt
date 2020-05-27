@@ -7,6 +7,21 @@
       name="description"
       content="lose stubborn belly fat while you are sleep"
     />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-167732881-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-167732881-1");
+    </script>
+
     <meta
       property="og:image"
       content="../images/Resurge 3 Bottles Most Popular.png"
@@ -40,7 +55,8 @@
             <div class="link">
               <a
                 href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-                class="btn-danger"
+                class="btn-danger click-tracking-ga"
+                data-ga-id="Video call to action bedtime"
                 >watch video</a
               >
             </div>
@@ -108,8 +124,10 @@
         </p>
         <a
           href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-          class="btn-danger"
-          >>> Do NOT AVOID this 2-minute bedtime ritual</a
+          class="btn-danger click-tracking-ga"
+          data-ga-id="2-minute bedtime"
+        >
+          >> Do NOT AVOID this 2-minute bedtime ritual</a
         >
         <p>
           While the total effects of this new method will vary from person to
@@ -135,7 +153,8 @@
         <p>It is easy to use and consume</p>
         <a
           href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-          class="btn-danger action-btn"
+          class="btn-danger action-btn click-tracking-ga"
+          data-ga-id="FAQs bedtime"
           >VIEW RESURGE FAQs</a
         >
       </div>
@@ -171,7 +190,8 @@
         </ul>
         <a
           href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-          class="btn-danger"
+          class="btn-danger click-tracking-ga"
+          data-ga-id="footer call to action bedtime"
           >Buy now from official website</a
         >
       </div>
@@ -200,5 +220,16 @@
         </ul>
       </div>
     </footer>
+    <script>
+      document.addEventListener("click", (e) => {
+        if (!e.target.classList.contains("click-tracking-ga")) {
+          return;
+        }
+        gtag("event", "clicks", {
+          event_category: `${e.target.getAttribute("data-ga-id")}`,
+          event_action: "Clicked",
+        });
+      });
+    </script>
   </body>
 </html>

@@ -7,6 +7,21 @@
       name="description"
       content="lose stubborn belly fat while you are sleep"
     />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-167732881-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-167732881-1");
+    </script>
+
     <meta
       property="og:image"
       content="../images/Resurge 3 Bottles Most Popular.png"
@@ -40,7 +55,8 @@
             <div class="link">
               <a
                 href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-                class="btn-danger"
+                class="btn-danger click-tracking-ga"
+                data-ga-id="video call to action header stubborn1"
                 >watch video</a
               >
             </div>
@@ -78,7 +94,8 @@
           </p>
           <a
             href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-            class="btn-danger"
+            class="btn-danger click-tracking-ga"
+            data-ga-id="learn more stubborn2"
             >learn more</a
           >
         </div>
@@ -100,7 +117,8 @@
         </p>
         <a
           href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-          class="btn-danger"
+          class="btn-danger click-tracking-ga"
+          data-ga-id="Learn more possible?"
           >learn more</a
         >
       </div>
@@ -121,7 +139,8 @@
         <p>It is easy to use and consume</p>
         <a
           href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-          class="btn-danger action-btn"
+          class="btn-danger action-btn click-tracking-ga"
+          data-ga-id="FAQs convasion stubborn"
           >VIEW RESURGE FAQs</a
         >
       </div>
@@ -157,7 +176,8 @@
         </ul>
         <a
           href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-          class="btn-danger"
+          class="btn-danger click-tracking-ga"
+          data-ga-id="call to action convasion stubborn"
           >Buy now from official website</a
         >
       </div>
@@ -186,5 +206,16 @@
         </ul>
       </div>
     </footer>
+    <script>
+      document.addEventListener("click", (e) => {
+        if (!e.target.classList.contains("click-tracking-ga")) {
+          return;
+        }
+        gtag("event", "clicks", {
+          event_category: `${e.target.getAttribute("data-ga-id")}`,
+          event_action: "Clicked",
+        });
+      });
+    </script>
   </body>
 </html>
