@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="../images/love_heart16.png" />
     <link rel="stylesheet" href="../css/lander.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-167732881-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-167732881-1");
+    </script>
     <title>After Dinner Ritual</title>
   </head>
   <body>
@@ -453,7 +467,8 @@
         <div class="convert-link">
           <a
             href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
-            class="convasion-bottom-link"
+            class="convasion-bottom-link click-tracking-ga"
+            data-ga-id="final bottom convarsion"
           >
             <h3>Skip The Quiz - I Connected With Your Story</h3>
             <p>*CLICK HERE*</p>
@@ -512,7 +527,10 @@
           >
           <p class="good-news">Amazing news... you're a perfect fit</p>
           <div class="model-btn">
-            <a href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
+            <a
+              href="https://113daajie1mn2n8lml8fh8ap8x.hop.clickbank.net/"
+              class="click-tracking-ga"
+              data-ga-id="model convasion button"
               ><span class="inner-model-btn1"
                 >*CLICK HERE* - SHOW ME THE AFTER DINNER RITUAL</span
               >
@@ -528,6 +546,17 @@
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("click", (e) => {
+        if (!e.target.classList.contains("click-tracking-ga")) {
+          return;
+        }
+        gtag("event", "clicks", {
+          event_category: `${e.target.getAttribute("data-ga-id")}`,
+          event_action: "Clicked",
+        });
+      });
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../js/index.js"></script>
   </body>
