@@ -23,8 +23,11 @@ img {
 }
 
 header {
-  background-color: rgb(33, 32, 34);
-  background-image: url("../images/Resurge-background-D5.jpg");
+  background-color: rgba(15, 14, 15, 0.924);
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   font-family: var(--font-family);
 }
@@ -95,7 +98,7 @@ header .title h1 .p {
   color: #ffffff;
   padding: 0.5rem;
   outline: none;
-  background-color: rgb(37, 131, 207);
+  background-color: #6c2576;
   font-family: Roboto, Helvetica, sans-serif !important;
   text-align: center;
 }
@@ -232,13 +235,13 @@ input[type="radio"] {
   text-align: center;
   margin: 1rem auto;
   background-color: #4eeb0b;
+
   padding: 0.8rem 1.6rem;
   width: 60%;
   border-radius: 40px;
 }
 .convert-link:hover {
   transition: 2s ease-in;
-  background-color: #3cb807;
 }
 .convert-link a {
   color: #ffffff;
@@ -271,9 +274,11 @@ input[type="radio"] {
 }
 /* FOOTER  */
 footer {
-  background-color: rgb(33, 32, 34);
-
-  background-image: url("../images/Resurge-background-D5.jpg");
+  background-color: rgba(15, 14, 15, 0.924);
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   color: #ffffff;
   font-family: var(--font-family);
