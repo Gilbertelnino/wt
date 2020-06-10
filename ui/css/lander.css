@@ -351,7 +351,7 @@ footer img {
   align-items: flex-start;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 2s;
+  transition: visibility 0s, opacity 0.5s;
   font-family: Arial, Helvetica, sans-serif;
 }
 .bg-active {
@@ -392,7 +392,7 @@ footer img {
 }
 .model .model-btn {
   background-color: #4eeb0b;
-  width: 360px;
+  width: 460px;
   margin: 0 2rem;
   font-weight: 600;
   font-size: 1.4rem;
@@ -476,12 +476,4 @@ footer img {
   .model .model-btn {
     width: 250px;
   }
-}
-
-.close-model {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-weight: bold;
-  cursor: pointer;
 }

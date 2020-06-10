@@ -1,11 +1,14 @@
 const modelBg = document.querySelector(".model-bg");
-const modelClose = document.querySelector(".close-model");
+const model = document.querySelector(".model");
 
 const showModel = () => {
   modelBg.classList.add("bg-active");
 };
 const closeModel = () => {
   modelBg.classList.remove("bg-active");
+};
+const modalClick = (e) => {
+  e.stopPropagation();
 };
 
 $(document).on("click", ".surveyRadioOption", function (e) {
@@ -85,4 +88,5 @@ $(document).ready(function () {
     $(".surveyStepProgressCounter").css("width", "100%");
   });
 });
-modelClose.addEventListener("click", closeModel);
+model.addEventListener("click", modalClick);
+modelBg.addEventListener("click", closeModel);
