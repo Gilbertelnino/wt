@@ -351,12 +351,22 @@ footer img {
   align-items: flex-start;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.5s;
   font-family: Arial, Helvetica, sans-serif;
 }
 .bg-active {
   visibility: visible;
   opacity: 1;
+  animation: animatetop 0.4s;
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .model {
