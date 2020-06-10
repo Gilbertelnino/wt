@@ -356,7 +356,7 @@ footer img {
 .bg-active {
   visibility: visible;
   opacity: 1;
-  animation: animatetop 0.4s;
+  animation: animatetop 0.8s;
 }
 @keyframes animatetop {
   from {
@@ -424,6 +424,9 @@ footer img {
   cursor: pointer;
   overflow-wrap: break-word;
   text-decoration: none;
+}
+.model a:hover {
+  cursor: pointer;
 }
 .inner-model-btn1 {
   color: rgb(255, 255, 255);
