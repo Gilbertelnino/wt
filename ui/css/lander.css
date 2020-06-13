@@ -16,7 +16,7 @@ img {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   width: 100%;
   margin: 0 auto;
   background-color: #ffffff;
@@ -122,12 +122,22 @@ header .title h1 .p {
   color: #2f2f2f;
   padding-bottom: 0.4rem;
 }
+
 .surveyStepHeadline_subtitle {
   font-size: 1rem;
   line-height: 1.4;
   padding-bottom: 0.9rem;
   font-family: var(--font-family);
   color: #2f2f2f;
+}
+@media (max-width: 500px) {
+  .surveyStepHeadline {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .surveyStepHeadline_subtitle {
+    font-size: 0.9rem;
+  }
 }
 .surveyStepProgressBar {
   width: 100%;
@@ -198,6 +208,9 @@ input[type="radio"] {
 }
 .stories .storie {
   margin-top: 1.4rem;
+}
+.stories .storie p {
+  font-size: 1.4rem;
 }
 .storie .inner-image {
   text-align: center;
@@ -402,7 +415,7 @@ footer img {
 }
 .model .model-btn {
   background-color: #4eeb0b;
-  width: 460px;
+  width: 360px;
   margin: 0 2rem;
   font-weight: 600;
   font-size: 1.4rem;
