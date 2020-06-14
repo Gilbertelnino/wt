@@ -1,0 +1,113 @@
+@media (max-width: 800px) {
+  .survey-section-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  header .title h1 {
+    font-size: 1.8rem;
+  }
+  .title p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 460px) {
+  header .title h1 {
+    font-size: 1.5rem;
+  }
+  .title p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 390px) {
+  #quiz-headline {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 330px) {
+  #quiz-headline {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 500px) {
+  .surveyStepHeadline {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .surveyStepHeadline_subtitle {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 760px) {
+  .arrow {
+    display: block;
+    text-align: center;
+  }
+  .arrow img {
+    width: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .storie .inner-image img {
+    width: 100%;
+  }
+}
+@media (max-width: 786px) {
+  .convert-link a h3 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 686px) {
+  .convert-link a h3 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 494px) {
+  .convert-link {
+    width: 90%;
+  }
+  .convert-link a h3 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 350px) {
+  .convert-link a h3 {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 438px) {
+  .model-title {
+    font-size: 1.1rem;
+  }
+  .model .good-news {
+    font-size: 0.8rem;
+  }
+  .model .model-btn {
+    width: 260px;
+  }
+  .inner-model-btn1 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 438px) {
+  .model-title {
+    font-size: 1.1rem;
+  }
+  .model .good-news {
+    font-size: 0.8rem;
+  }
+  .model .model-btn {
+    width: 260px;
+  }
+  .inner-model-btn1 {
+    font-size: 0.9rem;
+  }
+  .model .security {
+    font-size: 10px;
+  }
+}
+@media (max-width: 338px) {
+  .model .model-btn {
+    width: 250px;
+  }
+}
