@@ -13,7 +13,6 @@ const question4 = document.getElementById("question4");
 const bar = document.querySelector("#myBar");
 const popup = document.querySelector(".model-popup");
 const quizSection = document.querySelector(".quiz-section");
-console.log(bar);
 const handleClick = (e) => {
   e.preventDefault();
 
