@@ -62,7 +62,7 @@ section {
 /* *******MY STYLE START ********/
 
 .contact-header {
-  padding: 2rem 0;
+  padding: 0.7rem 0;
 }
 
 .welcome-message {
@@ -114,13 +114,13 @@ section {
 .privacy-terms {
   margin-top: 2rem;
 }
-.desktop{
-  display: block
+.desktop {
+  display: block;
 }
-.mobile{
-  display:none
+.mobile {
+  display: none;
 }
-@media(max-width: 370px){
+@media (max-width: 370px) {
   .desktop {
     display: none;
   }
@@ -128,7 +128,7 @@ section {
     display: block;
   }
 }
-.campany{
+.campany {
   opacity: 0;
 }
 /* *******MY STYLE ENDS ******* */
@@ -6046,8 +6046,6 @@ a.close.disabled {
 .toast.hide {
   display: none;
 }
-
-
 
 .toast-body {
   padding: 0.75rem;
@@ -12075,8 +12073,6 @@ footer {
 .tagcloud a:hover {
   border: 1px solid #000;
 }
-
-
 
 .search-form .form-group {
   position: relative;
