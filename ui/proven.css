@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #4267b2;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff9f9;
+}
+b {
+  padding: 0 0.4rem;
+}
+p {
+  font-weight: 400;
+  color: #222222;
+}
+h2 {
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: #111111;
+}
+
+li {
+  columns: #222222;
+  font-size: 1.1rem;
+}
+.headline {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.1;
+  font-weight: 600;
+  padding: 2rem;
+  color: #2f2f2f;
+}
+@media (max-width: 750px) {
+  .headline {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 700px) {
+  .headline {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .headline {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 380px) {
+  .headline {
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+}
+.content {
+  padding: 0 2rem;
+}
+.content p {
+  padding: 1rem 0;
+  line-height: 1.4;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content ul {
+  padding: 0 2rem;
+}
+@media (max-width: 600px) {
+  .content ul {
+    padding: 0 0.4rem;
+  }
+}
+.content ul li {
+  padding: 0.3rem 0;
+}
+.a-cont {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.content img {
+  width: 60%;
+}
+.second li {
+  padding: 0.4rem 0;
+}
+
+/* Product Image */
+
+.product-img {
+  text-align: center;
+}
+.product-img img {
+  width: 50%;
+}
+
+/* footer */
+
+footer * {
+  text-align: center;
+  color: #ffffff;
+  padding: 0 2rem;
+}
+
+.footer-link {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-link a {
+  padding: 0 0.8rem;
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  transition: 2s;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.copyright {
+  padding-bottom: 1rem;
+}
+
+.copyright p {
+  line-height: 1.4;
+  font-size: 0.7rem;
+}
+
+.disclaimer {
+  padding-bottom: 1rem;
+}
+.disclaimer p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.disclaimer .p1 {
+  padding-bottom: 1rem;
+}
